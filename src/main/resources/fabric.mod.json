@@ -8,13 +8,16 @@
   "authors": [
     "raltsmc"
   ],
+  "contributors": [
+    "Havio@Modrinth - Maintenance"
+  ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/mob-blindness",
     "sources": "https://github.com/raltsmc/mobblindness",
     "issues": "https://github.com/raltsmc/mobblindness/issues"
   },
 
-  "license": "MIT",
+  "license": "ARR",
   "icon": "assets/mobblindness/icon.png",
 
   "environment": "*",
@@ -31,8 +34,9 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.17.x"
+    "fabricloader": ">=0.14.19",
+    "fabric-api": "*",
+    "minecraft": "~1.19.4",
+    "java": ">=17"
   }
 }

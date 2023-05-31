@@ -1,13 +1,10 @@
 package raltsmc.mobblindness.mixin;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.network.Packet;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 import org.spongepowered.asm.mixin.Mixin;
@@ -61,11 +58,5 @@ public class LivingEntityMixin extends Entity {
     @Override
     public void writeCustomDataToNbt(NbtCompound tag) {
 
-    }
-
-    @Shadow
-    @Override
-    public Packet<?> createSpawnPacket() {
-        return null;
     }
 }

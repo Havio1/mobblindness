@@ -7,7 +7,7 @@ import raltsmc.mobblindness.config.MBConfig;
 
 public class MBMod implements ModInitializer {
 
-	public static final String MODID = "mobblindness";
+	public static final String MOD_ID = "mobblindness";
 	public static final MBConfig CONFIG;
 
 	@Override
